@@ -12,8 +12,8 @@ public class SwitchToAlertTest {
 
     @BeforeAll
     public static void initiate() {
-        WebDriverManager.firefoxdriver().setup();
-        webDriver = new FirefoxDriver();
+        WebDriverManager.chromedriver().setup();
+        webDriver = new ChromeDriver();
     }
 
     @AfterAll
